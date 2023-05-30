@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria Patronni</title>
+</head>
+<body>
+    <div class="logoPizzaria">
+        <img src="./img/LogoPizzariaPatroni.svg" alt="Logo da Pizzaria Patroni">
+    </div>
+    <div class="box">
+          <br>
+        <section>
+            <form autocomplete="off" id="form">
+                <fieldset>
+                    <label for="valorConta">Valor total da conta</label>
+                    <br>
+                    <input id="valorConta" class="caixaInput" required>
+                </fieldset>
+                    <br>
+                <fieldset>
+                    <label for="valorTaxa">Valor da taxa de serviços %</label>
+                    <br>
+                    <input id="valorTaxa" class="caixaInput"required>
+                </fieldset>
+                    <br>
+                <fieldset>
+                    <label for="quantidadePessoas">Quantidade de pagantes</label><br>
+                    <input id="quantidadePessoas" class="caixaInput" required>
+                </fieldset>
+                    <br>
+                
+                    <button onclick="formEvent()" id="buttonSend">Calcular</button>
+                
+            </form>
+        </section>
+         <br>
+        <script src="/main.js"></script>
+    </div>
+    <section class="resultado">
+        <div  id="resultado" >
+            <h3>Resultado</h3>
+        </div>
+    </section>
+</body>
+</html>

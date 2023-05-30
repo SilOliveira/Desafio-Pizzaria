@@ -1,0 +1,91 @@
+/* cores do patroni pizzeria
+#BF3E21 laranja escuro
+#94BF54 verde
+#F2C777 amarelo
+#F2EBDC bege
+#BF463B8 laranja claro
+*/
+
+body {
+    background-image:url("img/pizza-com-varios-ingredientes-na-mesa.jpg");
+    height: 100vh;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center top;
+    color: #BF3E21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+ }
+
+.logoPizzaria {
+    display:flex;
+    justify-content:center;
+    height: 35%;
+    width: auto;
+    padding-top: 8px;
+}
+
+.box {
+    position:absolute;
+    top:65%;
+    left:50%;
+    right:50%;
+    display:flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+fieldset {
+    border: 3px solid #f2ebdc;
+    background-color: #f2ebdc;
+    border-radius: 8px;
+    }
+
+.caixaInput {
+    border: 3px solid #94BF54;
+    border-radius: 3px;
+    outline:none;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonSend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f2ebdc;
+    color:#BF3E21;
+    width:100%;
+    border:none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+} 
+#buttonSend:hover {
+    background-color: #94BF54;
+}
+
+.resultado {
+    font-size: 18px;
+    align-items: center;
+    width: 25%;
+    background-color: #f2ebdc;
+    height: 50px;
+    
+    padding: 8px;
+    border-radius: 8px;
+    position:absolute;
+    top:95%;
+    left:50%;
+    right:50%;
+    display:flex;
+    justify-content: center;
+    transform: translate(-50%,-50%)
+}
+    
+
+    
